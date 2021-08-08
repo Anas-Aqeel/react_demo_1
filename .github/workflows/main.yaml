@@ -31,7 +31,7 @@ jobs:
          
 
       - name: creating build
-        run: npm build
+        run: npm run-script build
           
       - name: installing surge
         run: npm install --global surge   
