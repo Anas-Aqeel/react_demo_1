@@ -42,4 +42,4 @@ jobs:
       run: npm install -g surge
 
     - name: deploying on surge
-      run: surge ./build http://spicy-station4.surge.sh/ --token ${{secrets.SURGE_TOKEN}}
+      run: surge ./build wild-circles.surge.sh --token ${{secrets.SURGE_TOKEN}}
