@@ -51,4 +51,4 @@ jobs:
       run: sudo npm install --global surge
 
     - name: deploying surge
-      run: surge ./build http://wild-circles.surge.sh/ --token ${{ secrets.SURGE_TOKEN }}
+      run: surge ./build https://bouncy-visitor.surge.sh/ --token ${{ secrets.SURGE_TOKEN }}
